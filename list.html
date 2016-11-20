@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>汇智网-列表页</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!--头部-->
+<header class="navbar navbar-inverse navbar-fixed-top docs-nav nav-h-color" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand">
+                <img src="images/logo.png" alt="汇智网欢迎你！">
+            </a>
+        </div>
+        <nav id="hb-nav" class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="">课程中心</a></li>
+                <li><a href="">互动图书</a></li>
+                <li><a href="">API手册</a></li>
+                <li><a href="">讨论交流</a></li>
+                <li><a href="">会员服务</a></li>
+                <li><a href="">商务合作</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right profile">
+                <li><a href=""><i class="fa fa-sign-in"></i><img src="images/listlogo_06.png" alt=""> 登录 </a></li>
+                <li><a href=""><i class="fa fa-pencil"></i> <img src="images/listlogo_03.png" alt="">注册</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!--内容区-->
+
+<section id="menuNav">
+    <div class="container">
+        <div class="col-md-12">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#course-list" role="tab" data-toggle="tab" class="nav-ul-color">
+                        <span class="glyphicon glyphicon-th"></span><img src="images/listlogo_14.png" alt=""> 课程目录
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a id="navMap" href="#mapTab" role="tab" data-toggle="tab" class="nav-ul-color">
+                        <span class="glyphicon glyphicon-map-marker"></span><img src="images/listlogo_11.png" alt=""> 知识体系
+                    </a>
+                </li>
+            </ul>
+
+            <div style="padding:5px 10px 0px 10px;" class="outer_box">
+                <a href="" target="_blank" style="text-decoration:none;" class="nav-ul-color">立刻升级为会员，去除全部广告！</a>
+            </div>
+
+            <div class="tab-content">
+
+                <div role="tabpanel" class="tab-pane fade" id="course-list">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div id="course-type" class="btn-group" role="group">
+                                    <a href="" class="btn btn-primary">
+                                        全部
+                                    </a>
+                                    <a href="" class="btn btn-default">
+                                        前端
+                                    </a>
+                                    <a href="" class="btn btn-default">
+                                        移动
+                                    </a>
+                                    <a href="" class="btn btn-default">
+                                        后端
+                                    </a>
+                                    <a href="" class="btn btn-default">
+                                        数据
+                                    </a>
+                                </div>
+                                <div class="btn-group">
+                                    <a class="btn btn-default">
+                                        更多...
+                                    </a>
+                                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        <span class="caret"></span>
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+
+
+                            <ul id="course-sort" class="sort">
+                                <li class="active">
+                                    <a href="">最新</a>
+                                </li>
+                                <li class="false">
+                                    <a href="">热门</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+                        <div class="panel-body">
+
+
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list01.png" alt="BootStrap开发实践">
+                                            <div class="caption">
+                                                <h3>BootStrap开发实践</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+
+                                                    本课程主要介绍了用BootStrap搭建某多用户博客类网站的首页过程，目的是让读者能够掌握BootStrap在实际开发环境中的应用。课程中既有对
+                                                    普通BootStrap元素的使用，也有对BootStrap元素的二次开发，还包括了如何将自己编写的Jquery插件融入BootStrap环境，实
+                                                    战性强，实用性高！
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list02.png" alt="Android 开发入门篇">
+                                            <div class="caption">
+                                                <h3>Android 开发入门篇</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    android 第一个程序
+                                                    android 常用控件的使用
+                                                    认识 android Activity
+                                                    android 偏好数据的存储
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list03.png" alt="SQLite基础学习">
+                                            <div class="caption">
+                                                <h3>SQLite基础学习</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    可以作为sqlite入门学习，
+                                                    若想深入了解SQLite的底层实现，请查看官方文档。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list04.png" alt="Laravel5学习入门">
+                                            <div class="caption">
+                                                <h3>Laravel5学习入门</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    本课程讲解的是PHP的Laravel框架，通过学习，你可以掌握Laravel框架的简单实用方式，了解PHP的MVC开发模式，理解PHP的面向对象的思想。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list05.png" alt="Java8函数式编程入门">
+                                            <div class="caption">
+                                                <h3>Java8函数式编程入门</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    Java 8最大变化是引入了Lambda表达式，本课程讲解Lambda表达式函数式编程，以及Java8新增特性流Stream。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list06.png" alt="使用JavaScript进行面向对象开发">
+                                            <div class="caption">
+                                                <h3>使用JavaScript进行面向对象开发</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    本课程主要介绍如何运用Javascript进行面向对象式的开发。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list07.png" alt="基于PHP的微信支付教程">
+                                            <div class="caption">
+                                                <h3>基于PHP的微信支付教程</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    微信支付作为各大移动支付方式之一，本课程只要向大家介绍并使用微信支付的常用功能，进而集合到已有的项目中去，希望各位能够快速上手并掌握实战"干货"。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list08.png" alt="Java并发编程入门">
+                                            <div class="caption">
+                                                <h3>Java并发编程入门</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    本课程讲解的是Java并发编程的基础知识，结合少量操作系统知识，可以让你学会如何使用Java多线程的基本工具，可以使你对Java的多线程有一定的了解
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list09.png" alt="从零构建轻量级Java Web框架">
+                                            <div class="caption">
+                                                <h3>从零构建轻量级Java Web框架</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    本课程讲解如何从零开始构建轻量级Java Web框架。通过学习本课程可以加深你对IOC，APO技术原理的理解。本课程适合初级学员。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list10.png" alt="排序算法">
+                                            <div class="caption">
+                                                <h3>排序算法</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    所谓排序，就是要整理文件中的记录，使之按关键字递增(或递减)次序排列起来。本课程讲解基础的排序算法，适合零基础的的学员，当然要会基本的C编程。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list11.png" alt="设计模式">
+                                            <div class="caption">
+                                                <h3>设计模式</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    设计模式（Design
+                                                    pattern）是一套被反复使用、多数人知晓的、经过分类编目的、代码设计经验的总结。使用设计模式是为了可重用代码、让代码更容易被他人理解、保证代
+                                                    码可靠性。本课程需要有一定的Java语言基础。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <div class="thumbnail">
+                                            <img src="images/list12.png" alt="python爬虫">
+                                            <div class="caption">
+                                                <h3>python爬虫</h3>
+                                            </div>
+                                            <div class="desc">
+                                                <p style="text-indent: 2em;">
+                                                    本课程从基础开始讲解爬虫的原理，爬虫实现，爬虫进阶等知识，学完本课程后你将可以自己实现一个爬虫，轻松获取网络数据。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <nav>
+                                <ul class="pager">
+                                    <li class="disabled">
+                                        <a href="javascript:void(0);">上一页</a>
+                                    </li>
+                                    <li> 1 / 9 </li>
+                                    <li class="false">
+                                        <a href="">下一页</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--尾部-->
+<footer>
+    <div class="bottom-content row">
+        <div class="website col-xs-12 col-sm-7 col-md-4 col-lg-4 col-md-offset-1">
+            <h5><img class="img-responsive" src="images/logo_2.png" alt=""></h5>
+            <p style="text-indent: 2em;">
+                汇智网是一个学习最前沿编程技术的平台,互动式的学习和实时在线的练习,能让你迅速进入状态,快速掌握知识技能。
+            </p>
+            <ul class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1476576761438">
+                <!--<li><a data-cmd="qzone" class="weixin" title="微信" href="#"></a></li>-->
+                <li><a data-cmd="qzone" class="kongjian" title="QQ空间" href="#"></a></li>
+                <li><a data-cmd="tsina" class="xinlang" title="新浪微博" href="#"></a></li>
+                <li><a data-cmd="tqq" class="tengxun" title="腾讯微博" href="#"></a></li>
+                <li><a data-cmd="renren" class="renren" title="人人网" href="#"></a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
+            <h5>友情链接 <!--a class="pull-right" href="/friends" target="_blank">更多>>></a--></h5>
+            <ul>
+                <li><a href="" target="_blank"> Node.js 中文社区</a></li>
+                <li><a href="" target="_blank">phonegap中文网</a></li>
+                <li><a href="" target="_blank">布布扣</a></li>
+                <li><a href="" target="_blank">Ionic 中文社区</a></li>
+                <li><a href="" target="_blank">前端社区网</a></li>
+                <li><a href="" target="_blank">更多&gt;&gt;&gt;</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-2 col-lg-2 footer-services">
+            <h5>服务与支持</h5>
+            <ul>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-comment"></i>
+                        联系我们
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-heart"></i>
+                        关注微博</a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-user"></i>
+                        学习交流</a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-book"></i>
+                        课程卡片</a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                        关于我们
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-file"></i>
+                        语料库集
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-file"></i>
+                        技术博客
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="code col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <h5>微信订阅号</h5>
+            <img class="img-responsive" src="images/code.png" alt="">
+        </div>
+    </div>
+    <div class="copyright">
+        <!--&copy; 版权所有　Hubwiz,Inc. All Rights Reserved. 京ICP备13002042号-2-->
+        © Hubwiz.com  &nbsp; 京ICP备13002042号-2
+    </div>
+</footer>
+
+</body>
+</html>

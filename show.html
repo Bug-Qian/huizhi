@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>汇智网-课程介绍</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/show.css">
+</head>
+<body>
+<!--头部-->
+<header class="navbar navbar-inverse navbar-fixed-top docs-nav nav-h-color" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand">
+                <img src="images/logo.png" alt="汇智网欢迎你！">
+            </a>
+        </div>
+        <nav id="hb-nav" class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="">课程中心</a></li>
+                <li><a href="">互动图书</a></li>
+                <li><a href="">API手册</a></li>
+                <li><a href="">讨论交流</a></li>
+                <li><a href="">会员服务</a></li>
+                <li><a href="">商务合作</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right profile">
+                <li><a href=""><i class="fa fa-sign-in"></i> </i><img src="images/listlogo_06.png" alt="">登录 </a></li>
+                <li><a href=""><i class="fa fa-pencil"></i> <img src="images/listlogo_03.png" alt="">注册</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--内容区-->
+<div class="container-fluid container-bg">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6"></div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+<div class="container container-desc">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="bb">
+                <i class="iconfont icon-html5"></i>
+                <img src="images/html5_07.png" alt="">
+            </div>
+        </div>
+        <div class="col-md-6 desc">
+            <h3>
+                HTML5 天气预报
+                <a href="" class="btn btn-default btn-xs">
+                    <i class="fa fa-book"></i><img src="images/html5_03.png" alt=""> 只读版
+                </a>
+            </h3>
+
+            <p>一个HTML5/jQuery/Yahoo API的开发教程，将介绍如何使用HTML5的Geolocation，jQuery和YahooAPI来开发一个天气预报web应用。</p>
+
+            <div class="caption">
+                <div class="btn-group" role="group">
+                    <button disabled="disabled" style="cursor: auto;" type="button" class="btn btn-default btn-sm">
+                        <i class="glyphicon glyphicon-user"></i>
+                        <img src="images/study.png" alt="">
+                        学习
+                    </button>
+                    <span class="input-group-addon">
+                       5006
+                    </span>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button id="recommend" data-value="undefined" title="课程不错，鼓励一下！" type="button" class="btn btn-success btn-sm disabled">
+                        <i class="glyphicon glyphicon-thumbs-up"></i>
+                        <img src="images/hander.png" alt="">
+                        推荐
+                    </button>
+                    <span class="input-group-addon">14</span>
+                </div>
+                <div id="share" class="bdsharebuttonbox share bdshare-button-style1-32" data-bd-bind="1476625264719">
+                    <a href="#" class="iconfont icon-qzone" data-cmd="qzone" title="分享到QQ空间"><img src="images/html5_17.png" alt=""></a>
+                    <a href="#" class="iconfont icon-weibo" data-cmd="tsina" title="分享到新浪微博"><img src="images/html5_19.png" alt=""></a>
+                    <a href="#" class="iconfont icon-qqweibo" data-cmd="tqq" title="分享到腾讯微博"><img src="images/html5_21.png" alt=""></a>
+                    <a href="#" class="iconfont icon-renren" data-cmd="renren" title="分享到人人网"><img src="images/html5_23.png" alt=""></a>
+                    <a href="#" class="iconfont icon-weixin" data-cmd="weixin" title="分享到微信"><img src="images/html5_25.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 avatar">
+            <div style="float: left;" class="male">
+                <a href="">
+                    <img title="了解更多作者信息。" src="images/show01.jpg" class="thumbnail" alt="木头人">
+                </a>
+            </div>
+            <div>
+                <a href="">木头人</a>
+                <button data-id="543c98ba0dee9949081fd8e0" data-value="undefined" id="fans" title="关注作者，掌握课程动态。" type="button" class="btn btn-default btn-sm disabled">
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <img src="images/htm.png" alt="">
+                    关注
+                </button>
+                <a title="将你的意见或建议告诉作者。" href="" class="btn btn-info btn-sm disabled">
+                    <i class="glyphicon glyphicon-envelope"></i>
+                    <img src="images/html5_12.png" alt="">
+                    私信
+                </a>
+            </div>
+            <p style="clear: both;text-indent: 2em;color: #b9c8e0;">
+                有关于课程的问题，可以q我呀！......
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container container-menu">
+    <div class="row" style="margin-bottom: 150px;">
+        <div id="menu" class="col-md-8">
+
+            <div>
+                <a href="" target="_blank" style="text-decoration:none;" class="a_color a_box">立刻升级为会员，去除全部广告！</a>
+            </div>
+
+            <div class="tabbable-panel">
+                <div class="tabbable-line">
+                    <ul class="nav nav-tabs ">
+                        <li id="one-publish" class="active">
+                            <a href="#paneOne" data-toggle="tab">
+                                课程目录 </a>
+                        </li>
+                        <li id="two-publish" class="">
+                            <a href="#paneTwo" data-toggle="tab">
+                                课程评论
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <!-- 课程目录 -->
+                        <div class="tab-pane active" id="paneOne">
+                            <div class="panel-group" id="accordion" aria-multiselectable="true">
+                                <div class="panel panel-default lock">
+                                    <div class="panel-heading" data-parent="#accordion">
+                                        <h4 class="panel-title">需求与设计
+                                            <button class=" pull-right play btn_box">
+                                                <span class="glyphicon glyphicon-play"><img src="images/radio_03.png" alt=""></span>
+                                            </button>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <ol class="list-group">
+
+                                                <li class="list-group-item">
+                                                    1. 功能介绍
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    2. 技术要点
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    3. 页面设计
+                                                </li>
+
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default lock">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            通过具体城市，获取此城市的标识
+                                            <span class="glyphicon glyphicon-lock pull-right"><img src="images/html5_45.png" alt=""></span>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default lock">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            调用yahoo的Weather API来取得天气
+                                            <span class="glyphicon glyphicon-lock pull-right"><img src="images/html5_45.png" alt=""></span>
+                                        </h4>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading"><i class="glyphicon glyphicon-heart-empty"></i><img src="images/html5_41.png" alt=""> 推荐课程</div>
+                <div class="panel-body hotCourse">
+
+                    <a href="" class="a_color">
+                        <div class="media">
+                            <div class="media-left text-center">
+                                <img style="border: 1px solid #ddd;width: 120px;" class="media-object" src="images/php01.jpg" alt="PHP 提高篇">
+                                <h6 class="media-heading">PHP 提高篇</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>
+                                    PHP是一种被广泛应用的开放源代码的多用途脚本语言，它可嵌入到 HTML中，尤其......
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="" class="a_color">
+                        <div class="media">
+                            <div class="media-left text-center">
+                                <img style="border: 1px solid #ddd;width: 120px;" class="" src="images/material01.png" alt="Material Design Lite">
+                                <h6 class="media-heading">Material Design Lite</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>
+                                    简洁惊艳的前端工具箱，Material Design设计语言的HTML/CSS/......
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="" class="a_color">
+                        <div class="media">
+                            <div class="media-left text-center">
+                                <img style="border: 1px solid #ddd;width: 120px;" class="media-object" src="images/canvas01.jpg" alt="Canvas 应用">
+                                <h6 class="media-heading">Canvas 应用</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>
+                                    Canvas应用，主要是运用HTML5 canvas来实现的各种功能和效果。......
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--尾部-->
+<footer>
+    <div class="bottom-content row">
+        <div class="website col-xs-12 col-sm-7 col-md-4 col-lg-4 col-md-offset-1">
+            <h5><img class="img-responsive" src="images/logo_2.png" alt=""></h5>
+            <p style="text-indent: 2em;">
+                汇智网是一个学习最前沿编程技术的平台,互动式的学习和实时在线的练习,能让你迅速进入状态,快速掌握知识技能。
+            </p>
+            <ul class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1476576761438">
+                <!--<li><a data-cmd="qzone" class="weixin" title="微信" href="#"></a></li>-->
+                <li><a data-cmd="qzone" class="kongjian" title="QQ空间" href="#"></a></li>
+                <li><a data-cmd="tsina" class="xinlang" title="新浪微博" href="#"></a></li>
+                <li><a data-cmd="tqq" class="tengxun" title="腾讯微博" href="#"></a></li>
+                <li><a data-cmd="renren" class="renren" title="人人网" href="#"></a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
+            <h5>友情链接 <!--a class="pull-right" href="/friends" target="_blank">更多>>></a--></h5>
+            <ul>
+                <li><a href="" target="_blank"> Node.js 中文社区</a></li>
+                <li><a href="" target="_blank">phonegap中文网</a></li>
+                <li><a href="" target="_blank">布布扣</a></li>
+                <li><a href="" target="_blank">Ionic 中文社区</a></li>
+                <li><a href="" target="_blank">前端社区网</a></li>
+                <li><a href="" target="_blank">更多&gt;&gt;&gt;</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-2 col-lg-2 footer-services">
+            <h5>服务与支持</h5>
+            <ul>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-comment"></i>
+                        联系我们
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-heart"></i>
+                        关注微博</a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-user"></i>
+                        学习交流</a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-book"></i>
+                        课程卡片</a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                        关于我们
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-file"></i>
+                        语料库集
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="glyphicon glyphicon-file"></i>
+                        技术博客
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="code col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <h5>微信订阅号</h5>
+            <img class="img-responsive" src="images/code.png" alt="">
+        </div>
+    </div>
+    <div class="copyright">
+        <!--&copy; 版权所有　Hubwiz,Inc. All Rights Reserved. 京ICP备13002042号-2-->
+        © Hubwiz.com  &nbsp; 京ICP备13002042号-2
+    </div>
+</footer>
+</body>
+</html>
